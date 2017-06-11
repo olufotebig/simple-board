@@ -1,0 +1,4 @@
+<div>
+  <!-- <app-list [cards]="cards"></app-list> -->
+  <app-list *ngFor="let list of lists" [list]="list" [cardStore]="cardStore"></app-list>
+</div>
